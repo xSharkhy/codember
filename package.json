@@ -1,0 +1,24 @@
+{
+  "type": "module",
+  "name": "my-app",
+  "version": "1.0.0",
+  "description": "My awesome app using ES modules",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "standard && vitest"
+  },
+  "keywords": [
+    "esmodule",
+    "app"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "devDependencies": {
+    "standard": "^17.1.0",
+    "vitest": "^0.34.6"
+  },
+  "eslintConfig": {
+    "extends": "standard"
+  }
+}
